@@ -1,8 +1,6 @@
 language: python
 
 script:
-  - git checkout stable
-  - git pull origin $TRAVIS_PULL_REQUEST_BRANCH
   - git checkout master
   - git pull origin $TRAVIS_PULL_REQUEST_BRANCH
 
